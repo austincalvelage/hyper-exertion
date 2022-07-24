@@ -23,7 +23,7 @@ export default function Nav() {
             </a>
             <div className="hidden ml-10 space-x-8 lg:block">
               {navigation.map((link) => (
-                <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50 text-center">
+                <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
                   {link.name}
                 </a>
               ))}
@@ -38,7 +38,7 @@ export default function Nav() {
             </a>
           </div>
         </div>
-        <div className="py-4 flex flex-wrap justify-center space-x-6 lg:hidden">
+        <div className="py-4 flex justify-center space-x-6 lg:hidden text-center">
           {navigation.map((link) => (
             <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
               {link.name}
