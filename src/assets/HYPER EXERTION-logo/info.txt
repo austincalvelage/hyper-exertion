@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Fonarto
+font link: https://www.behance.net/gallery/20085723/Fonarto-Typeface
+font author: Arwan Sutanto
+font author site: http://artonedigital.com/
+
+
+icon designer: Jesus Jezzini De Anda
+icon designer link: /jjezzini
+        
+{"bg":"#EDED1B","icon":"#131619","font":"#131619","slogan":"#272a2d"}
+      
