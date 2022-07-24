@@ -1,9 +1,9 @@
 import logo from '../assets/default-monochrome-black.svg'
 
 const navigation = [
-  { name: 'OUR MISSION', href: '#' },
-  { name: 'MEET YOUR TRAINER', href: '#' },
-  { name: 'JOIN', href: '#' },
+  { name: 'OUR MISSION', href: '/mission' },
+  { name: 'MEET YOUR TRAINER', href: '/meetYourTrainer' },
+  { name: 'JOIN', href: '/join' },
 
 ]
 
@@ -23,26 +23,29 @@ export default function Nav() {
             </a>
             <div className="hidden ml-10 space-x-8 lg:block">
               {navigation.map((link) => (
-                <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
-                  {link.name}
-                </a>
+                <>
+                  <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
+                    {link.name}
+                  </a>
+                  <span>|</span>
+                </>
               ))}
             </div>
           </div>
-          <div className="ml-10 space-x-4">
+          <div className="ml-10 space-x-4 text-center">
             <a
               href="#"
-              className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 text-center"
+              className="inline-block bg-black py-2 px-4 border border-transparent rounded-md text-base font-medium text-white hover:bg-opacity-75 "
             >
               Sign in
             </a>
           </div>
         </div>
-        <div className="py-4 flex justify-center space-x-6 lg:hidden text-center">
+        <div className="py-4 flex justify-center items-center space-x-6 lg:hidden">
           {navigation.map((link) => (
-            <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
-              {link.name}
-            </a>
+              <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
+                {link.name}
+              </a>
           ))}
         </div>
       </nav>
