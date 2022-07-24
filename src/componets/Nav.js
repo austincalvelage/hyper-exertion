@@ -23,7 +23,7 @@ export default function Nav() {
             </a>
             <div className="hidden ml-10 space-x-8 lg:block">
               {navigation.map((link) => (
-                <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50">
+                <a key={link.name} href={link.href} className="text-base font-medium text-black hover:text-black/50 text-center">
                   {link.name}
                 </a>
               ))}
