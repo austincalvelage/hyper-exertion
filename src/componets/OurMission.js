@@ -10,7 +10,7 @@ const ourMissionContent = {
 }
 export default function OurMission() {
   return (
-    <div className="bg-no-repeat bg-cover w-full h-fullabsolute top-0 left-0" style={{backgroundImage: `url(${background})`}}>
+    <div className="bg-no-repeat bg-cover w-full" style={{backgroundImage: `url(${background})`}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-screen flex flex-col items-center justify-center gap-10">
         <div className="bg-black/70 overflow-hidden shadow rounded-lg">
           <div className="px-4 py-5 sm:p-6">
@@ -23,8 +23,6 @@ export default function OurMission() {
           </div>
         </div>
       </div>
-
-
     </div>
   )
 }
